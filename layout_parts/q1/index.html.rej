@@ -1,0 +1,9 @@
+diff a/layout_parts/q1/index.html b/layout_parts/q1/index.html	(rejected hunks)
+@@ -21,6 +21,7 @@
+         <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
+         <div class="q1">
+           
++          <div class="q1 q1__content clearfix">
+         </div>
+         <!-- 回答はクラスq1の要素の中に書いてね -->
+       </div>
