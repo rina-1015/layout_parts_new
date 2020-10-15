@@ -3,3 +3,24 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+} 
+
+
+
+.box2 {
+  line-height: 22px;
+  font-size: 18px;
+  text-align: left;
+  word-wrap: break-word;
+
+  float: left;
+  width: 100%;
+  margin-right: -940px;
+  background-color: #eff3f4;
+
+}
