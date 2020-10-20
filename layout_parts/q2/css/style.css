@@ -10,17 +10,50 @@
   clear: both;
 } 
 
+.headline__text{
+  display:inline-block;
+  padding:  0 10px 10px;
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  
+}
 
-
-.box2 {
+.box {
+  width: 900px;
   line-height: 22px;
   font-size: 18px;
+  word-break:break-all;
+  background-color: #eff3f4;
+  padding: 20px;
+}
+
+
+.box1 {
   text-align: left;
   word-wrap: break-word;
-
   float: left;
   width: 100%;
-  margin-right: -940px;
-  background-color: #eff3f4;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
 
+.float_l {
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.box2 {
+  text-align: right;
+  word-wrap: break-word;
+  float: right;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.float_2 {
+  float: right;
+  margin-bottom: 10px;
+  margin-left: 20px;
 }
