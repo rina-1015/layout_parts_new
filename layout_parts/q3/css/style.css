@@ -12,6 +12,7 @@
 
 table {
   table-layout: fixed;
+  border: 1px solid #dedede ;
   width: 100%;
   text-align: center;
 }
@@ -19,9 +20,31 @@ table {
 table th {
   padding: 10px;
   color:white ;
+  border: 1px solid #dedede ;
+  background: #2244aa ;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+th:first-child {
   background: #2244aa ;
 }
 
 table td {
+  border: 1px solid #dedede ;
   padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
 }
+
+tbody tr:last-child {
+  border-color: #000;
+  border-width: 2px;
+  border-top-style: dashed;
+}
+
+tr:nth-child(even){background-color:#ecf1f2}
+
+
+
+ 
