@@ -3,3 +3,27 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+.q5 {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: #ecf1f2;
+  margin: auto;
+  z-index: 10;
+}
+
+.q5_box {
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.q5_box_9 {
+ top:10px;
+ left: 10px;
+ position: fixed;
+ background-color: #2b69a3;
+}
