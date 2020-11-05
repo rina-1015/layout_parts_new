@@ -13,7 +13,6 @@
 
 
 .table {
-  display: table-cell;
   border: 1px solid;
   padding: 20px;
   text-align: center;
@@ -22,17 +21,16 @@
   
 
 .table_1 {
- display: table-cell;
- width: 25%;
+ display: table;
  padding: 20px 0;
 }
 
 
 
 .table_2 {
-  display: table-cell;
-  width: 50%;
+  display: table;
   padding: 20px 0;
+  float: bottom;
 }
 
 
@@ -41,18 +39,21 @@
   width: 100px;
   background-color: #fdc8b8;
   vertical-align: top;
+  float: left;
 }
 
 .table_b {
   width: 500px;
   background-color: #e0abd9;
   vertical-align: middle;
+  float: left;
 }
 
 .table_c {
   width: 100px;
   background-color: #b6d8ed;
   vertical-align: bottom;
+  float: left;
 }
 
 .table_2 {
@@ -63,15 +64,18 @@
   width: 100px;
   background-color: #e5d32e;
   vertical-align: top;
+  float: left;
 }
 
 .table_e {
   width: 100px;
   background-color: #ec8f9a;
   vertical-align: middle;
+  float: left;
 }
 .table_f {
   width: 500px;
   background-color: #8fdcad;
   vertical-align: bottom;
+  float: left;
 }
