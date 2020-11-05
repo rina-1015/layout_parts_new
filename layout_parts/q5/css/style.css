@@ -23,19 +23,76 @@
 }
 
 .q5_box_9 {
-  top:10px;
+  top: 10px;
   left: 10px;
   position: fixed;
   background-color: #2b69a3;
 }
 
 .q5_box_1 {
-  top:40px;
+  top: 40px;
   left: 200px;
   position: relative;
   background-color: #ffefd3;
 }
 
-.q5_box_8{
-  background-color: white;
+.q5_box_1::before {
+  
 }
+
+.q5_box_2 {
+  top: 120px;
+  left: 280px;
+  position: absolute;
+  z-index: 2;
+  background-color: #7084de;
+}
+
+.q5_box_3 {
+  top: 200px;
+  left: 360px;
+ background-color: #d0ecea;
+ position: absolute;
+ z-index: 3;
+}
+
+.q5_box_4 {
+  top: 280px;
+  left: 280px;
+ background-color: #8b7a5e;
+ position: absolute;
+ z-index: 4;
+}
+
+.q5_box_5 {
+  top: 360px;
+  left: 200px;
+  background-color: #9fd6d2;
+  position: absolute;
+  z-index: 5;
+}
+
+.q5_box_6 {
+  top: 280px;
+  left: 120px;
+  background-color: #fffee4;
+  position: absolute;
+  z-index: 6;
+}
+
+.q5_box_7 {
+  top: 200px;
+  left: 40px;
+  background-color: #deae70;
+  position: absolute;
+  z-index: 7;
+}
+
+.q5_box_8 {
+  top: 120px;
+  left: 120px;
+  position: absolute;
+  z-index: 1;
+  background-color: #de70cf;
+}
+
