@@ -36,8 +36,12 @@
   background-color: #ffefd3;
 }
 
-.q5_box_1::before {
-  
+.q5_box_1::after {
+  top: 20px;
+  left: 20px;
+  background-color: #de70cf;
+  position: absolute; 
+  content: attr(q5_box_8) "";
 }
 
 .q5_box_2 {
