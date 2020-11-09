@@ -20,7 +20,6 @@
   display: table;
   padding: 20px 0;
   margin: auto;
-  padding: 20px,20px;
 }
 
 
@@ -29,7 +28,6 @@
   padding: 20px 0;
   float: bottom;
   margin: auto;
-  padding: 20px,20px;
 }
 
 
@@ -40,6 +38,7 @@
   background-color: #fdc8b8;
   vertical-align: top;
   float: left;
+  padding: 20px 20px;
 }
 
 .table_b {
@@ -48,6 +47,7 @@
   background-color: #e0abd9;
   vertical-align: middle;
   float: left;
+  padding: 20px 20px;
 }
 
 .table_c {
@@ -56,6 +56,7 @@
   background-color: #b6d8ed;
   vertical-align: bottom;
   float: left;
+  padding: 20px 20px;
 }
 
 .table_2 {
@@ -68,6 +69,7 @@
   background-color: #e5d32e;
   vertical-align: top;
   float: left;
+  padding: 20px 20px;
 }
 
 .table_e {
@@ -76,6 +78,7 @@
   background-color: #ec8f9a;
   vertical-align: middle;
   float: left;
+  padding: 20px 20px;
 }
 .table_f {
   display: table-cell;
@@ -83,4 +86,5 @@
   background-color: #8fdcad;
   vertical-align: bottom;
   float: left;
+  padding: 20px 20px;
 }

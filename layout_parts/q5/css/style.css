@@ -34,14 +34,15 @@
   left: 200px;
   position: relative;
   background-color: #ffefd3;
+  margin-right: 0;
 }
 
 .q5_box_1::after {
-  top: 20px;
-  left: 20px;
+  bottom: 0px;
+  left: 0px;
   background-color: #de70cf;
   position: absolute; 
-  content: attr(q5_box_8) "";
+  content: '' ;
 }
 
 .q5_box_2 {
