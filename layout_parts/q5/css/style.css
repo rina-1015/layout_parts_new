@@ -37,12 +37,13 @@
   margin-right: 0;
 }
 
-.q5_box_1::after {
+.mini::before {
   bottom: 0px;
   left: 0px;
   background-color: #de70cf;
   position: absolute; 
-  content: '' ;
+  content: '';
+  z-index: 8;
 }
 
 .q5_box_2 {
