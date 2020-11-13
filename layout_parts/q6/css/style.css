@@ -3,64 +3,19 @@
 
 
 
-.q6__box {
-  background-color: #e6f2ff ;
-  padding: 10px;
-  width: 90px;
-  margin: auto;
+
+
+.table {
+  display: table;
 }
 
-.box1 {
-  position: relative;
-  table-layout: fixed;
-  background-color: #ECF1F2;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-
-.q6__box2 {
-  position: absolute;
+.table div {
+  display: table-cell;
   text-align: center;
-  background-color: #fff;
-  padding: 10px;
-  margin: auto;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
+  vertical-align: middle;
+
+  
 }
-
-
-
-.q6--position {
-  position: relative;
-  table-layout: fixed;
-  background-color:  #ECF1F2;
-}
-
-.inner__box3 {
-  position: absolute;
-  background-color: #e6f2ff;
-  margin: auto;
-  width: 110px;
-  height: 30px;
-}
-
-.inner__box4 {
-  position: absolute;
-  background-color: #e6f2ff;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  margin: auto;
-  padding: 10px;
-}
-
 
 /* 回答はここに書いてね */
 
