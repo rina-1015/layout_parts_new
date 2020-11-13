@@ -2,6 +2,7 @@
 
 
 
+
 .q6__box p {
   text-align: center;
   background-color: #e6f2ff ;
@@ -13,39 +14,48 @@
 .q6--around {
   position: relative;
   table-layout: fixed;
+  background-color: #ECF1F2;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
-.q6--around p {
+.q6__box2 {
   position: absolute;
   text-align: center;
+  background-color: #fff;
+  padding: 10px;
   margin: auto;
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-  vertical-align: middle;
-  padding: 10px;
-  background-color: #fff;
 }
+
+
 
 .q6--position {
-  display: table;
+  position: relative;
   table-layout: fixed;
+  background-color:  #ECF1F2;
 }
 
-.is-stable  {
-  display: table-cell;
-  justify-content: center; 
-  text-align:center;
-  background-color: #e6f2ff;
-  margin: auto;
-}
 
-.is-flexible {
-  display: table-cell;
-  justify-content: center; 
-  text-align:center;
+
+.inner__box3 {
+  position: absolute;
   background-color: #e6f2ff;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
   margin: auto;
+  padding: 10px;
+  width: 110px;
+  height: 30px;
 }
 
 

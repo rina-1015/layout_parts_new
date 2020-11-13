@@ -23,82 +23,85 @@
 }
 
 .q5_box_9 {
+  position: fixed;
   top: 10px;
   left: 10px;
-  position: fixed;
   background-color: #2b69a3;
 }
 
 .q5_box_1 {
+  position: relative;
   top: 40px;
   left: 200px;
-  position: relative;
   background-color: #ffefd3;
-  margin-right: 0;
+  margin-right: 1;
 }
 
-.mini::before {
-  bottom: 0px;
-  left: 0px;
-  background-color: #de70cf;
-  position: absolute; 
-  content: '';
-  z-index: 8;
-}
 
 .q5_box_2 {
+  position: absolute;
   top: 120px;
   left: 280px;
-  position: absolute;
   z-index: 2;
   background-color: #7084de;
 }
 
 .q5_box_3 {
+  position: absolute;
   top: 200px;
   left: 360px;
- background-color: #d0ecea;
- position: absolute;
- z-index: 3;
+  background-color: #d0ecea;
+  z-index: 3;
 }
 
 .q5_box_4 {
+  position: absolute;
   top: 280px;
   left: 280px;
- background-color: #8b7a5e;
- position: absolute;
- z-index: 4;
+  background-color: #8b7a5e;
+  z-index: 4;
 }
 
 .q5_box_5 {
+  position: absolute;
   top: 360px;
   left: 200px;
   background-color: #9fd6d2;
-  position: absolute;
   z-index: 5;
 }
 
 .q5_box_6 {
+  position: absolute;
   top: 280px;
   left: 120px;
   background-color: #fffee4;
-  position: absolute;
   z-index: 6;
 }
 
 .q5_box_7 {
+  position: absolute;
   top: 200px;
   left: 40px;
   background-color: #deae70;
-  position: absolute;
   z-index: 7;
 }
 
 .q5_box_8 {
+  position: relative;
+  position: absolute;
   top: 120px;
   left: 120px;
-  position: absolute;
-  z-index: 1;
   background-color: #de70cf;
+  z-index: 8;
 }
 
+.q5_box_8::before {
+  position: absolute; 
+  top: 0px;
+  right: 0px;
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  content: '';
+  z-index: 8;
+}
