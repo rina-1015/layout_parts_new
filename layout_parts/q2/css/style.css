@@ -10,7 +10,7 @@
   clear: both;
 } 
 
-.headline__text {
+.headline__text{
   display:inline-block;
   padding:  0 10px 10px;
   font-size: 20px;
@@ -25,10 +25,11 @@
   word-break:break-all;
   background-color: #eff3f4;
   padding: 20px;
+  margin: auto;
 }
 
 
-.box1 {
+.p .content__balloon {
   text-align: left;
   word-wrap: break-word;
   float: left;
@@ -37,13 +38,13 @@
   margin-right: 20px;
 }
 
-.float_l {
+.balloon-float {
   float: left;
   margin-bottom: 10px;
   margin-right: 20px;
 }
 
-.box2 {
+.p .content__light {
   text-align: right;
   word-wrap: break-word;
   float: right;
@@ -52,7 +53,7 @@
   margin-left: 20px;
 }
 
-.float_2 {
+.light-float {
   float: right;
   margin-bottom: 10px;
   margin-left: 20px;
