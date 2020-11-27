@@ -37,13 +37,13 @@ th:first-child {
   line-height: 22px;
 }
 
-.q3__tbody tr:last-child {
+.q3__contents tbody tr:last-child {
   border-color: #000;
   border-width: 2px;
   border-top-style: dashed;
 }
 
-.q3__tbody tr:nth-child(even) {
+.q3__contents tbody tr:nth-child(even) {
   background-color:#ecf1f2;
 }
 
