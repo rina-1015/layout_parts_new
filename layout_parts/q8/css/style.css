@@ -23,7 +23,7 @@
 }
 
 .q8__transition-picture {
- transition: all 0.5s;
+ transition: all .5s;
 }
 
 .q8__trans-desc {
@@ -49,10 +49,6 @@
   word-break: break-all;
 }
 
-.q8__transition-picture:hover {
-  transition: all .5s;
-  transform:scale(1.5)
-}
 
 .q8__animation {
   width: 100px;
